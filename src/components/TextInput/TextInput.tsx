@@ -1,3 +1,4 @@
+import { Button } from '@mui/material';
 import React, { useState } from 'react';
 
 const TextInput = () => {
@@ -12,6 +13,7 @@ const TextInput = () => {
         aria-label="Text Input"
       />
       <p>Entered Text: {text}</p>
+      <Button variant="contained">Contained</Button>
     </div>
   );
 };
