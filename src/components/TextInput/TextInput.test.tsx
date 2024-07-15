@@ -1,3 +1,4 @@
+import React from 'react';
 import userEvent from '@testing-library/user-event';
 import TextInput from './TextInput';
 import { render, screen } from '@testing-library/react';
