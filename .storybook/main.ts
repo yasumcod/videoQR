@@ -9,9 +9,14 @@ const config: StorybookConfig = {
     '@chromatic-com/storybook',
     '@storybook/addon-interactions',
   ],
+
   framework: {
     name: '@storybook/react-vite',
     options: {},
   },
+  env: (config) => ({
+    ...config,
+    EXAMPLE_VAR: 'An environment variable configured in Storybook',
+  }),
 };
 export default config;
