@@ -1,6 +1,3 @@
-// src/themes.ts
-import { createTheme } from '@mui/material/styles';
-
 // Light theme
 export const lightTheme = createTheme({
   palette: {
